@@ -26,9 +26,7 @@ public class MainActivity extends Activity {
         
         // Creating notification hub.
         String notificationHubName = "TestnhBaidu";
-        //String connectionString = "Endpoint=sb://memoznamespace.servicebus.windows-int.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=1o+bQy5hixqjNz6a8hncgt7c9iPOVRwGkOjurmNC9Ks=";
-        
-        String connectionString = "Endpoint=sb://testversionbaudisas.servicebus.windows-int.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=404hXawr9YH96QL6J7AIiCApzJJzpX4jAk1cFIYgQ74=";
+        String connectionString = "MyConnectionString";
         
         mHub = new NotificationHub(notificationHubName, connectionString, this);
     }
